@@ -3,6 +3,10 @@ package com.example.admin.assignment2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
+
+import java.text.DateFormat;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     String tag = "EVH_demo";
@@ -11,33 +15,44 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(tag, tag + "onCreate()");
+
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        Log.d(tag, tag + " onCreate() at: " + currentDateTimeString);
+
+
     }
 
     protected void onStart() {
         super.onStart();
-        Log.d(tag, tag + "onStart()");
+
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        Log.d(tag, tag + " onStart() at: " + currentDateTimeString);
     }
 
     protected void onRestart() {
         super.onRestart();
-        Log.d(tag, tag + "onReStart()");
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        Log.d(tag, tag + " onRestart() at: " + currentDateTimeString);
     }
     protected void onResume() {
         super.onResume();
-        Log.d(tag, tag + "onResume()");
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        Log.d(tag, tag + " onResume() at: " + currentDateTimeString);
     }
     protected void onPause() {
         super.onPause();
-        Log.d(tag, tag + "onPause()");
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        Log.d(tag, tag + " onPause() at: " + currentDateTimeString);
     }
     protected void onStop() {
         super.onStop();
-        Log.d(tag, tag + "onStop()");
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        Log.d(tag, tag + " onStop() at: " + currentDateTimeString);
     }
 
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(tag, tag + "onDestroy()");
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        Log.d(tag, tag + " onDestroy() at: " + currentDateTimeString);
     }
 }
