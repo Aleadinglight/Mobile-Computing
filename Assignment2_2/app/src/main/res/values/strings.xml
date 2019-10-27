@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="app_title">Feed Back</string>
+
+    <string name="user_firstname">First name</string>
+    <string name="user_lastname">Last name</string>
+    <string name="user_phonenumber">Phone number</string>
+    <string name="user_comment">Comment</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_reset">Reset</string>
+</resources>
