@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name"></string>
     <string name="app_title">Feed Back</string>
-
+    <string name="dialog_text_message">Give your feedback </string>
+    <string name="dialog_button_message">Show</string>
     <string name="user_firstname">First name</string>
     <string name="user_lastname">Last name</string>
     <string name="user_phonenumber">Phone number</string>
