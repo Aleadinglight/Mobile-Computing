@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">assignment4_3</string>
+    <string name="button_c">C</string>
+    <string name="button_del">⌫</string>
+
+    <string name="button_plus">+</string>
+    <string name="button_minus">‒</string>
+    <string name="button_multiply">×</string>
+    <string name="button_divide">÷</string>
+    <string name="button_mod">%</string>
+
+    <string name="button_invert">-</string>
+</resources>
