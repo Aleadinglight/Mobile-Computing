@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment4_1</string>
+    <string name="button_current">Current Time</string>
+    <string name="button_clear">Clear</string>
+</resources>
